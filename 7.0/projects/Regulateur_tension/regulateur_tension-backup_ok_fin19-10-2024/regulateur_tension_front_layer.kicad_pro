@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -177,9 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -461,7 +448,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -518,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "NetList/regulateur_tension.net",
-      "plot": "gerber-regula-26-08-2024-v3_back/",
+      "plot": "gerber-regula-26-08-2024-v2/",
       "pos_files": "fichier_fabrication/",
       "specctra_dsn": "",
       "step": "",
@@ -579,55 +566,13 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Library",
-          "name": "Sim.Library",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Name",
-          "name": "Sim.Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Params",
-          "name": "Sim.Params",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Référence"
     },
     "connection_grid_size": 50.0,
     "drawing": {
