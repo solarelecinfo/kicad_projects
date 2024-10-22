@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber-regula-26-08-2024-v3_back/")
+			(outputdirectory "gerber-regul-22-10-2024-v7.0/")
 		)
 	)
 	(net 0 "")
@@ -166,7 +166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.reboul.fr/storage/00008823.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2736,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Value" "570"
+		(property "Value" "654"
 			(at 5.08 -14.96 90)
 			(layer "F.Fab")
 			(uuid "94af7b2c-988b-435e-91a4-763bb0cef98a")
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/3667870.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3064,7 +3064,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "1N4007"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "0cbb44db-f0e7-4818-8230-91a4d56457fd")
@@ -3473,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/2866634.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "1N4007"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "576ced09-51b4-4958-b063-06d05ee24f32")
@@ -4912,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.reboul.fr/storage/00008823.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7456,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "1N4007"
 			(at 5.08 -4.96 90)
 			(layer "F.Fab")
 			(uuid "bd243a08-4580-4fff-ae8e-8529f7f17961")
@@ -7841,7 +7841,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "1N4007"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "b438cf9d-9604-4eaf-9915-8c1f73479130")
@@ -8226,7 +8226,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN_AC"
 			(at 2.5 5.06 90)
 			(layer "F.Fab")
 			(uuid "754ee17f-4fac-4936-9ea3-70c4b6e6d22e")
@@ -8250,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/2866634.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8272,58 +8272,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95f2d3dc-62e2-4402-a8a7-ed7f5b1a711e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c4c9ef1-b34c-4c5e-b658-fe9a4d77f176")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "dc=0 ampl=10 f=0 td=0 theta=0 phase=0 ac=10"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e5f846a-7413-44ab-9958-1758505298ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4cc3e3ab-26b0-4146-a66f-6fa659029a5d")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8957,7 +8905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

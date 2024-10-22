@@ -229,7 +229,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1193800|596900|39a79a58-6f4e-4c6e-b86d-2cc6ba22be0c|00000000-0000-0000-0000-000000000000|/c44e61ec-4248-42a4-8230-7845d6bed7d8|/c44e61ec-4248-42a4-8230-7845d6bed7d8|",
+      "power_pin_not_driven|1270000|850900|b456d46a-0be8-4d42-98c7-0bd4ca2c273b|00000000-0000-0000-0000-000000000000|/c44e61ec-4248-42a4-8230-7845d6bed7d8|/c44e61ec-4248-42a4-8230-7845d6bed7d8|"
+    ],
     "meta": {
       "version": 0
     },
@@ -518,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "NetList/regulateur_tension.net",
-      "plot": "gerber-regula-26-08-2024-v3_back/",
+      "plot": "gerber-regul-22-10-2024-v7.0/",
       "pos_files": "fichier_fabrication/",
       "specctra_dsn": "",
       "step": "",
@@ -529,7 +532,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Liste_material_v7.0",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

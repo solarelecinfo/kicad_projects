@@ -1,0 +1,8 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C2","1000μF","https://www.reboul.fr/storage/00008823.pdf","Capacitor_THT:CP_Radial_D13.0mm_P7.50mm","2",""
+"D1,D2,D3,D4","1N4007","http://www.vishay.com/docs/88503/1n4001.pdf","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","4",""
+"INPUT_AC1","IN_AC","https://www.farnell.com/datasheets/2866634.pdf","TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal","1",""
+"OUTPUT1","OUT_DC","https://www.farnell.com/datasheets/2866634.pdf","TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal","1",""
+"R1","220","https://www.farnell.com/datasheets/3436052.pdf","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical","1",""
+"R2","654","https://www.farnell.com/datasheets/3667870.pdf","Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Vertical","1",""
+"RegulateurV1","LM317_TO-220","http://www.ti.com/lit/ds/symlink/lm317.pdf","Package_TO_SOT_THT:TO-220-3_Vertical","1",""
