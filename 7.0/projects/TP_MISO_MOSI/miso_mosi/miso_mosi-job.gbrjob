@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-11-01T09:32:40+01:00"
+    "CreationDate": "2025-01-03T11:27:23+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "regulateur_tension",
-      "GUID": "72656775-6c61-4746-9575-725f74656e73",
+      "Name": "miso_mosi",
+      "GUID": "6d69736f-5f6d-46f7-9369-2e6b69636164",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 81.33,
-      "Y": 50.85
+      "X": 91.998,
+      "Y": 132.638
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,35 +24,50 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.3,
-      "PadToTrack": 0.3,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.8
+      "MinLineWidth": 1.0
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "regulateur_tension-B_Cu.gbr",
+      "Path": "miso_mosi-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "miso_mosi-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "regulateur_tension-F_Paste.gbr",
+      "Path": "miso_mosi-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "regulateur_tension-F_Silkscreen.gbr",
+      "Path": "miso_mosi-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "miso_mosi-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "regulateur_tension-F_Mask.gbr",
+      "Path": "miso_mosi-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "regulateur_tension-Edge_Cuts.gbr",
+      "Path": "miso_mosi-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "miso_mosi-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -68,29 +83,24 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
-%TF.CreationDate,2024-11-01T09:32:39+01:00*%
-%TF.ProjectId,regulateur_tension,72656775-6c61-4746-9575-725f74656e73,rev?*%
+%TF.CreationDate,2025-01-03T11:27:22+01:00*%
+%TF.ProjectId,miso_mosi,6d69736f-5f6d-46f7-9369-2e6b69636164,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Top*%
+%TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4) date 2024-11-01 09:32:39*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2025-01-03 11:27:22*
 %MOMM*%
 %LPD*%
 G01*

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "2c2057e0-ec0e-47bc-b973-069a3212fd0c")
 	(paper "A4")
+	(title_block
+		(title "Transformateur")
+		(date "2024-11-03")
+		(rev "0.0.1")
+		(company "Solare-elec")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
