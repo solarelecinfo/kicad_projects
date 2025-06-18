@@ -1,0 +1,8 @@
+"Id";"Référence";"Empreinte";"Quantité";"Désignation";"Fournisseur et réf";
+1;"C1,C2";"CP_Radial_D13.0mm_P7.50mm";2;"1000μF";;;
+2;"R2";"Potentiometer_Piher_PC-16_Single_Vertical";1;"654";;;
+3;"D4,D3,D1,D2";"D_DO-41_SOD81_P10.16mm_Horizontal";4;"1N4007";;;
+4;"OUTPUT1";"TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal";1;"OUT_DC";;;
+5;"RegulateurV1";"TO-220-3_Vertical";1;"LM317_TO-220";;;
+6;"INPUT_AC1";"TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal";1;"IN_AC";;;
+7;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical";1;"220";;;

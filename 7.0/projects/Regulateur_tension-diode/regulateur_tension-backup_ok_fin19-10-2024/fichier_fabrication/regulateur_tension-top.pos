@@ -1,0 +1,17 @@
+### Footprint positions - created on 2024-08-26T01:43:55+0200 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref          Val              Package                                                                     PosX       PosY       Rot  Side
+C1             C_Polarized      CP_Radial_D13.0mm_P7.50mm                                                48.3800   -20.3200    0.0000  top
+C2             C_Polarized      CP_Radial_D13.0mm_P7.50mm                                                48.4600   -38.1000    0.0000  top
+D1             1N4001           D_DO-41_SOD81_P10.16mm_Horizontal                                        38.1000   -17.7800  180.0000  top
+D2             1N4001           D_DO-41_SOD81_P10.16mm_Horizontal                                        27.9400   -27.9400    0.0000  top
+D3             1N4001           D_DO-41_SOD81_P10.16mm_Horizontal                                        38.1000   -38.1000  180.0000  top
+D4             1N4001           D_DO-41_SOD81_P10.16mm_Horizontal                                        27.9400   -48.2600    0.0000  top
+Input_VAC_LN1  Conn_01x02       TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal    17.7800   -20.4000  -90.0000  top
+Output_DC1     Conn_01x02       TerminalBlock_MetzConnect_Type094_RT03502HBLU_1x02_P5.00mm_Horizontal    86.3600   -27.8600   90.0000  top
+R1             R                R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical                           73.6600   -30.4800  180.0000  top
+RV2            R_Potentiometer  Potentiometer_Piher_PC-16_Single_Vertical                                68.7400   -40.6400  -90.0000  top
+U1             LM317_TO-220     TO-220-3_Vertical                                                        68.5800   -17.7800    0.0000  top
+## End
