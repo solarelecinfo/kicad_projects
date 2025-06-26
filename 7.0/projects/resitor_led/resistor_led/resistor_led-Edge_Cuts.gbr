@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.9*%
+%TF.CreationDate,2025-06-18T22:35:42+02:00*%
+%TF.ProjectId,resistor_led,72657369-7374-46f7-925f-6c65642e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.9) date 2025-06-18 22:35:42*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X152500000Y-43500000D02*
+X182000000Y-43500000D01*
+X182000000Y-88500000D01*
+X152500000Y-88500000D01*
+X152500000Y-43500000D01*
+M02*
