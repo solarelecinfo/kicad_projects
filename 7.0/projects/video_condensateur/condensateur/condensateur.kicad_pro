@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ATMEGA_board.kicad_pro",
+    "filename": "condensateur.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -382,6 +382,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "ab9241d9-6e70-435e-8872-cc5d6b2f76cf",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
