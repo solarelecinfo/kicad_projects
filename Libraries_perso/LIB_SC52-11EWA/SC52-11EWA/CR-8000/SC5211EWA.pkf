@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SC5211EWA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SC5211EWA")
+        (spec "default")
+    )
+)

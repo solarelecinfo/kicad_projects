@@ -1,14 +1,43 @@
-version 2
-1
-9
-.tran 1m 20 0{return}.kicad adjustpaths{return}.save all{return}.probe alli
-3
-2
-I(L1)
- 
-1
-V(Net-_J2-Pin_1_)
- 
-1
-V(Net-_L1-Pad1_)
- 
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1m 12 0",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": false,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "I(L1)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_J2-Pin_1_)",
+          "trace_type": 1
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(Net-_L1-Pad1_)",
+          "trace_type": 1
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

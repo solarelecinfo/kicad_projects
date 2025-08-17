@@ -1,0 +1,16 @@
+.SC52-11EWA :1 ;Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.689" H x 0.488" W x 0.276" D (17.50mm x 12.40mm x 7.00mm) 10-DIP (0.600", 15.24mm)
+SC5211EWA
+*STM DS
+*NGS
+*PLB 1="A_E" 2="A_D" 3="COM_K_1" 4="A_C" 5="A_DP" 6="A_B" 7="A_A" 8="COM_K_2" 9="A_F" 10="A_G"
+*MXP 10
+*DFN SC52-11EWA
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Kingbright)
+~!Manufacturer_Part_Number (SC52-11EWA)
+~!Link Datasheet (https://www.kingbrightusa.com/images/catalog/SPEC/SC52-11EWA.pdf)
+~!Height (7.25mm)
+~!3D_Model (SC52-11EWA)
+SC52-11EWA
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

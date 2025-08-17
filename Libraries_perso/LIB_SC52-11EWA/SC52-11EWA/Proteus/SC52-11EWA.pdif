@@ -1,0 +1,162 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SC52-11EWA"
+   (description "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.689\" H x 0.488\" W x 0.276\" D (17.50mm x 12.40mm x 7.00mm) 10-DIP (0.600\", 15.24mm)")
+   (family "ANA")
+   (package "SC5211EWA")
+   (attribute "Datasheet Link" "https://www.kingbrightusa.com/images/catalog/SPEC/SC52-11EWA.pdf")
+   (attribute "Geometry.Height" "7.25mm")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "Kingbright")
+   (attribute "Manufacturer_Part_Number" "SC52-11EWA")
+   (gate
+    (symbol "SC52-11EWA")
+    (pin "A_E" 1 PS)
+    (pin "A_D" 2 PS)
+    (pin "COM_K_1" 3 PS)
+    (pin "A_C" 4 PS)
+    (pin "A_DP" 5 PS)
+    (pin "A_B" 6 PS)
+    (pin "A_A" 7 PS)
+    (pin "COM_K_2" 8 PS)
+    (pin "A_F" 9 PS)
+    (pin "A_G" 10 PS)
+   )
+  )
+  (symbol "SC52-11EWA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SC5211EWA"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.12 16.37)
+      (pt 11.28 16.37)
+      (pt 11.28 -1.13)
+      (pt -1.12 -1.13)
+      (pt -1.12 16.37))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.12 17.37)
+      (pt 12.28 17.37)
+      (pt 12.28 -2.13)
+      (pt -2.12 -2.13)
+      (pt -2.12 17.37))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.12 -1.13)
+      (pt 11.28 -1.13)
+      (pt 11.28 16.37)
+      (pt -1.12 16.37)
+      (pt -1.12 -1.13))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0)
+      (arc (pt -1.600 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep .0))
+      (pt -1.7 0)
+      (arc (pt -1.700 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 4 (pt 7.620 0.000) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 6 (pt 10.160 15.240) (padstack 0))
+   (leg 7 (pt 7.620 15.240) (padstack 0))
+   (leg 8 (pt 5.080 15.240) (padstack 0))
+   (leg 9 (pt 2.540 15.240) (padstack 0))
+   (leg 10 (pt 0.000 15.240) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "SC52-11EWA.stp"
+    (euler 90 0 90)
+    (offset 7.610000133514404 -5.050000190734863 7.369999885559082)
+   )
+  )
+ )
+)
