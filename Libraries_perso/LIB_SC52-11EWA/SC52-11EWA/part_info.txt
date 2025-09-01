@@ -1,0 +1,9 @@
+Manufacturer=Kingbright
+PartNumber=SC52-11EWA
+PartCategory=Display
+PackageCategory=Other
+PinCount=10
+Version=2.2
+Released=2020-02-22 19:23:12
+Downloaded=2025-08-12 08:53:30
+3D=Y

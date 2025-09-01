@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CD74HCT4511E")(type "KiCad")(uri "C:/Users/user/REPO/kicad_projects/Libraries_perso/ul_CD74HCT4511E/KiCADv6/2025-08-09_14-56-29.kicad_sym")(options "")(descr "CD74HCT4511E Décodeur BCD vers 7 Segments, Driver, Verrou, Famille HCT, 7 Sorties 4,5 V à 5,5 V DIP-16"))
+  (lib (name "SC-52-11EWA")(type "KiCad")(uri "C:/Users/user/REPO/kicad_projects/Libraries_perso/LIB_SC52-11EWA/SC52-11EWA/KiCad/SC52-11EWA.kicad_sym")(options "")(descr "Afficheur LED 7 segments, Mécanisme robuste, Rouge, 20 mA, 2 V, 6.4 mcd, 1, 13.2 mm"))
+)

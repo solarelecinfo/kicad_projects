@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SC52-11EWA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-03-19-05:30:26)
+    (mountForm default
+        (footprintRef "SC5211EWA")
+        (spec "System")
+    )
+)
