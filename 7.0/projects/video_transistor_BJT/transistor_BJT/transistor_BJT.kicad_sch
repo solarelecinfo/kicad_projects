@@ -1525,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 85.09 97.79)
+			(xy 87.63 93.98) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1535,23 +1535,33 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 77.47 118.11)
+			(xy 48.26 90.17) (xy 44.45 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "547ba12e-2dc9-4aff-a912-e122d3dd9177")
+		(uuid "69539b64-4ab1-444c-82b7-83964b06846a")
 	)
 	(wire
 		(pts
-			(xy 95.25 93.98) (xy 96.52 93.98)
+			(xy 44.45 90.17) (xy 44.45 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e204e18-84d7-48bb-b381-d6f86fee03be")
+		(uuid "9161831d-1475-41fe-833f-2574df23fe7e")
+	)
+	(wire
+		(pts
+			(xy 44.45 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987c0dcc-5178-4bb5-b956-2fd4c0381e10")
 	)
 	(wire
 		(pts
@@ -1565,33 +1575,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 90.17) (xy 34.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b14d6a6c-4cf9-402d-b645-170aefa72452")
-	)
-	(wire
-		(pts
-			(xy 77.47 118.11) (xy 77.47 97.79)
+			(xy 80.01 118.11) (xy 80.01 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5025f46-d32e-447a-8679-9c7115e8c51c")
-	)
-	(wire
-		(pts
-			(xy 95.25 93.98) (xy 95.25 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca61f76d-22f4-455b-82b3-6c1db61070c9")
 	)
 	(wire
 		(pts
@@ -1605,16 +1595,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 90.17) (xy 34.29 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7eb9cbe-9456-45e0-a40e-e81aaf1323a9")
-	)
-	(wire
-		(pts
 			(xy 104.14 86.36) (xy 104.14 88.9)
 		)
 		(stroke
@@ -1625,7 +1605,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 97.79 270)
+		(at 83.82 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1634,7 +1614,7 @@
 		(fields_autoplaced yes)
 		(uuid "25b143e2-c969-42fd-b7e0-5337e86aa497")
 		(property "Reference" "R2"
-			(at 81.28 91.44 90)
+			(at 83.82 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1622,7 @@
 			)
 		)
 		(property "Value" "230"
-			(at 81.28 93.98 90)
+			(at 83.82 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 96.012 90)
+			(at 83.82 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 97.79 0)
+			(at 83.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1648,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 97.79 0)
+			(at 83.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1805,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_UNO_R3")
-		(at 52.07 87.63 0)
+		(at 60.96 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1834,7 +1814,7 @@
 		(fields_autoplaced yes)
 		(uuid "af10c2bb-1a5c-41be-9abc-b216b52c813a")
 		(property "Reference" "A1"
-			(at 59.3441 59.69 0)
+			(at 68.2341 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1823,7 @@
 			)
 		)
 		(property "Value" "Arduino_UNO_R3"
-			(at 59.3441 62.23 0)
+			(at 68.2341 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_UNO_R3"
-			(at 52.07 87.63 0)
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1842,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno"
-			(at 52.07 87.63 0)
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1851,7 @@
 			)
 		)
 		(property "Description" "Arduino UNO Microcontroller Module, release 3"
-			(at 52.07 87.63 0)
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e7e2df-93ad-490e-a487-934490ee3195")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 113.03 80.01 90)
 			(effects
 				(font
@@ -2312,7 +2292,7 @@
 		(instances
 			(project "transistor_BJT"
 				(path "/56d0690a-4f43-41dc-928d-77bd97c5f5f6"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
