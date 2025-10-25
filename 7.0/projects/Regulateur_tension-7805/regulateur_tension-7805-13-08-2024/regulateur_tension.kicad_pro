@@ -532,7 +532,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "C:\\Users\\user\\REPO\\kicad_projects\\7.0\\projects\\Regulateur_tension-7805\\regulateur_tension.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

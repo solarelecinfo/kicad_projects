@@ -761,6 +761,18 @@
 		)
 		(uuid "fad08e66-40cd-4fdf-9845-9a078e87cbb4")
 	)
+	(label "Alimentation abaisseur de tension 230 VAC {slash} 15 VAC"
+		(at 92.71 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2574931d-1f7c-4e3a-b363-0dffe3b6da33")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 135.89 91.44 0)
