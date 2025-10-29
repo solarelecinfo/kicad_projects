@@ -1532,17 +1532,18 @@
 		)
 		(uuid "fe3215dd-d673-4bf2-b1f8-b36f851eb26a")
 	)
-	(label "Régulateur à double source (9VDC et 5VDC)"
-		(at 107.95 40.64 0)
+	(label "Régulateur  à double source"
+		(at 125.73 43.18 0)
 		(effects
 			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
+				(size 1.27 1.27)
+				(thickness 0.254)
 				(bold yes)
+				(italic yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "e85c85f3-ada8-4d8f-915e-eb4965de3e9d")
+		(uuid "31e2a11f-7f91-43c2-ab73-017e18ff5e24")
 	)
 	(global_label "GROUND"
 		(shape input)
@@ -1685,24 +1686,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 93.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 93.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "861e37cd-2d80-4e90-b792-f6f170ee368c")
 		)
@@ -1762,24 +1745,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 49.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 49.53 63.5 0)
 			(effects
 				(font
@@ -1875,24 +1840,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 91.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 91.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e8a8ccf9-ee2e-4c10-9dee-9595b6a4ca26")
 		)
@@ -1979,24 +1926,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b0b5d1b4-1c1e-48f2-a410-72c4f43142d5")
 		)
@@ -2059,24 +1988,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 105.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 105.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -2171,24 +2082,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "71c34e51-e062-46d8-acd7-093b1f971b19")
 		)
@@ -2275,24 +2168,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 71.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 71.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f891c60b-9425-47c9-ae85-e8437f4d997b")
 		)
@@ -2354,24 +2229,6 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -2445,24 +2302,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 142.24 100.33 0)
 			(effects
 				(font
@@ -2568,24 +2407,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 166.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 166.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "384a70d1-5fbf-4d07-86e7-2c30be14b54a")
 		)
@@ -2656,24 +2477,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 142.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 142.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4ec2030f-8621-4d1a-8c76-580f3f9cdb1a")
 		)
@@ -2735,24 +2538,6 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220"
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -2861,24 +2646,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 166.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 166.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4f2634a9-d0ea-4cfb-84db-056e7e812f1a")
 		)
@@ -2964,24 +2731,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1f7c3ec9-8b51-4b77-b071-f84a0e750a8c")
 		)
@@ -3042,24 +2791,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
 			(at 99.06 48.26 0)
 			(effects
 				(font
