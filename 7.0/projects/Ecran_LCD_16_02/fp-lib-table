@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LCD_16x2_xaimen")(type "KiCad")(uri "C:/Users/jctor/REPO_ROOT/kicad_projects/Libraries_perso/LCD_16x2/LCD_16x2_xaimen.pretty")(options "")(descr ""))
+)
