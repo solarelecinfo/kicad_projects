@@ -195,6 +195,303 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -439,6 +736,70 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SOURCE INPUT(12/24VDC) "
+		(exclude_from_sim no)
+		(at 79.756 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "210bc897-5636-493a-9e73-94a79ee41bd7")
+	)
+	(text "SOURCE INPUT(12/24VDC) "
+		(exclude_from_sim no)
+		(at 78.486 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a77774f-8483-4f5d-9fd6-c096669c104b")
+	)
+	(text "PROTECTED SOURCE OUTPUT(12/24VDC) "
+		(exclude_from_sim no)
+		(at 141.478 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f0e400f-05f9-478c-8806-efb56cac0c67")
+	)
+	(text "REGULATED SOURCE(5VDC) "
+		(exclude_from_sim no)
+		(at 145.542 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6ca46a6-a360-4588-9179-a2f2d3a8bc72")
+	)
+	(junction
+		(at 102.87 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d5b2928-8f0a-47f5-8282-9da82252161c")
+	)
+	(junction
+		(at 137.16 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2599817e-28d7-43de-9bab-c5b2c664ec61")
+	)
+	(junction
+		(at 137.16 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4ee0d3-adeb-4ffc-aa25-682679538fbb")
+	)
+	(junction
+		(at 102.87 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3da0bdc-a4be-40ce-a424-b8f88a820944")
+	)
 	(junction
 		(at 123.19 93.98)
 		(diameter 0)
@@ -447,13 +808,43 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 115.57 93.98)
+			(xy 137.16 93.98) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11abf596-95ed-43b5-ad90-9d447d0b42f7")
+		(uuid "0d112aad-1070-42ef-9f68-19a618a3e8b7")
+	)
+	(wire
+		(pts
+			(xy 92.71 82.55) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4ba3d2-5fea-49a6-8304-2e5b1878b905")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a8795a-f5f7-4fb8-acb3-6271220f0fd4")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a8b683-51e9-4b2c-b233-e959901c84ce")
 	)
 	(wire
 		(pts
@@ -467,17 +858,27 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 93.98)
+			(xy 102.87 80.01) (xy 115.57 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40d124b7-31a6-4bee-9a47-b4c28db7c38e")
+		(uuid "37adcc60-fc59-482b-9c90-21e408e913fc")
 	)
 	(wire
 		(pts
-			(xy 130.81 80.01) (xy 143.51 80.01)
+			(xy 102.87 87.63) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cb5120-2ba7-4dd6-8619-9f646fa470b0")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -487,7 +888,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 115.57 80.01)
+			(xy 137.16 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b1958a-2086-4fa5-8c23-9a98a35657d8")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +908,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 123.19 93.98)
+			(xy 151.13 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98efb2ad-3e8e-4317-808c-46850747c7da")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 123.19 93.98)
+			(xy 123.19 93.98) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -517,23 +938,113 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 115.57 82.55)
+			(xy 154.94 82.55) (xy 151.13 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb15263a-3740-4526-93c1-124c1f1185bc")
+		(uuid "ad4bbffb-06c6-453b-a8cc-2e3e3095cc12")
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 132.08 82.55)
+			(xy 97.79 114.3) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc488dad-4c10-4d73-9d34-4d5dda3a7f65")
+		(uuid "b9024b34-d7e1-4531-82e7-c71da3154455")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee9e11e-cf78-4b86-8c3e-8e842b914caa")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3aaaaf-467d-4f21-bf6c-43ee10ed23e2")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 129.54 114.3 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ccb0c84-5fdf-46e2-9894-597fd1975187")
+		(property "Reference" "J4"
+			(at 132.08 114.3001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 132.08 111.7601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9d456df-664e-4df2-9764-ad02a80ac9c3")
+		)
+		(pin "2"
+			(uuid "9e1ce749-cfcd-4a5c-a8c7-dab315a3a962")
+		)
+		(instances
+			(project "regulateur_tension-7805-nov-2025-DC-DC"
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:L7805")
@@ -609,6 +1120,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d6bd31-51cf-4858-9766-30e6bb975f56")
+		(property "Reference" "C2"
+			(at 140.97 81.6609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22-47uF"
+			(at 140.97 84.2009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.1252 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1de36a38-0402-400f-82e4-790ab03d11c8")
+		)
+		(pin "1"
+			(uuid "e9b8dbf7-639a-4055-b5cd-033c10807d67")
+		)
+		(instances
+			(project "regulateur_tension-7805-nov-2025-DC-DC"
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 92.71 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51973332-6fda-4997-811d-67105d51e424")
+		(property "Reference" "J3"
+			(at 90.17 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 90.17 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ff309d7-bf45-4a72-9402-9d40c6fb79de")
+		)
+		(pin "2"
+			(uuid "e941798f-7d69-4c98-97be-caf71493247d")
+		)
+		(instances
+			(project "regulateur_tension-7805-nov-2025-DC-DC"
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 93.98 0)
 		(unit 1)
@@ -676,7 +1327,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 101.6 80.01 0)
+		(at 87.63 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -685,7 +1336,7 @@
 		(dnp no)
 		(uuid "af57381b-0065-4114-a1df-394722d99fd4")
 		(property "Reference" "J2"
-			(at 99.06 80.0099 0)
+			(at 85.09 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +1345,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 99.06 82.5499 0)
+			(at 85.09 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +1354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 80.01 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +1363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 80.01 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +1372,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 80.01 0)
+			(at 87.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,7 +1397,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 148.59 80.01 0)
+		(at 160.02 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -755,7 +1406,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3eaa6eb-1e10-4cb4-a2bb-256e44b1c4e8")
 		(property "Reference" "J1"
-			(at 151.13 80.0099 0)
+			(at 162.56 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +1415,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 151.13 82.5499 0)
+			(at 162.56 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +1424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +1433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +1442,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 80.01 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,6 +1460,144 @@
 			(project ""
 				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 110.49 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3b79f71-5796-4a91-8c8c-a556757b3f6a")
+		(property "Reference" "F1"
+			(at 110.49 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300mA"
+			(at 110.49 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f2470e-a84e-4071-92fb-354093aa4387")
+		)
+		(pin "2"
+			(uuid "fbcc03e7-f307-47de-ab20-c69dc45846bc")
+		)
+		(instances
+			(project ""
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 102.87 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfda5c75-ea8d-480f-aa16-9437d4e2036c")
+		(property "Reference" "C1"
+			(at 106.68 81.6609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22-47uF"
+			(at 106.68 84.2009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.8352 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8acf91f8-ea32-4306-a0d5-8e7996a4d4a9")
+		)
+		(pin "1"
+			(uuid "5c3c9d67-1a1e-4882-9c0d-9983b03e6f6a")
+		)
+		(instances
+			(project ""
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "C1")
 					(unit 1)
 				)
 			)

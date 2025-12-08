@@ -239,12 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|342900|1270000|9d24a1cd-27f5-42f2-aa1d-fa13a0636ad0|00000000-0000-0000-0000-000000000000|/aaf9608a-5f64-4970-957a-9aef54098b9f|/aaf9608a-5f64-4970-957a-9aef54098b9f|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
