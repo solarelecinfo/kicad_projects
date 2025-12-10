@@ -977,76 +977,6 @@
 		(uuid "ea3aaaaf-467d-4f21-bf6c-43ee10ed23e2")
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 129.54 114.3 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ccb0c84-5fdf-46e2-9894-597fd1975187")
-		(property "Reference" "J4"
-			(at 132.08 114.3001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 132.08 111.7601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9d456df-664e-4df2-9764-ad02a80ac9c3")
-		)
-		(pin "2"
-			(uuid "9e1ce749-cfcd-4a5c-a8c7-dab315a3a962")
-		)
-		(instances
-			(project "regulateur_tension-7805-nov-2025-DC-DC"
-				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:L7805")
 		(at 123.19 80.01 0)
 		(unit 1)
@@ -1072,7 +1002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 123.825 83.82 0)
 			(effects
 				(font
@@ -1138,7 +1068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22-47uF"
+		(property "Value" "0.1uF"
 			(at 140.97 84.2009 0)
 			(effects
 				(font
@@ -1147,7 +1077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 138.1252 87.63 0)
 			(effects
 				(font
@@ -1217,7 +1147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -1327,6 +1257,76 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 129.54 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a06aab18-95eb-494b-8042-ba8a05b505c2")
+		(property "Reference" "J4"
+			(at 132.08 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 132.08 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076e6560-c70e-40a0-a50f-4936394c00f1")
+		)
+		(pin "2"
+			(uuid "4adc27e2-b852-4938-99eb-4f354c90226f")
+		)
+		(instances
+			(project "regulateur_tension-7805-nov-2025-DC-DC"
+				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 87.63 80.01 0)
 		(mirror y)
 		(unit 1)
@@ -1335,7 +1335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af57381b-0065-4114-a1df-394722d99fd4")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 85.09 80.0099 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 87.63 80.01 0)
 			(effects
 				(font
@@ -1389,7 +1389,7 @@
 		(instances
 			(project "regulateur_tension-7805-nov-2025-DC-DC"
 				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1405,7 +1405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3eaa6eb-1e10-4cb4-a2bb-256e44b1c4e8")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 162.56 80.0099 0)
 			(effects
 				(font
@@ -1423,7 +1423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -1459,7 +1459,7 @@
 		(instances
 			(project ""
 				(path "/7666492c-6562-4a9c-814c-e25c8f8128c0"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1491,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
 			(at 110.49 113.538 90)
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22-47uF"
+		(property "Value" "0.33uF"
 			(at 106.68 84.2009 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 103.8352 87.63 0)
 			(effects
 				(font
