@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "montage de test.kicad_prl",
+    "filename": "LM35-Capteur-LCD.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

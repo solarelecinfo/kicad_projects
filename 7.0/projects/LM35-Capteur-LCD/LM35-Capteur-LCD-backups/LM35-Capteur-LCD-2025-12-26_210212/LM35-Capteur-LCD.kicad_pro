@@ -251,7 +251,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "montage de test.kicad_pro",
+    "filename": "LM35-Capteur-LCD.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -397,11 +397,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "97b83f05-97de-4430-b884-c03c3a181e4b",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
