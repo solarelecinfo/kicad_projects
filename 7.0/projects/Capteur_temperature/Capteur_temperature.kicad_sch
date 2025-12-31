@@ -2102,6 +2102,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Montage LM35 avec Arduino et afficheur 4 chiffres"
+		(exclude_from_sim no)
+		(at 136.906 29.972 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.2794)
+				(bold yes)
+			)
+		)
+		(uuid "639b3b2e-228a-45f7-9bcb-9c014bbbd561")
+	)
 	(wire
 		(pts
 			(xy 110.49 59.69) (xy 110.49 72.39)
@@ -3060,7 +3072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d5dc4dc-d914-4cdb-ac7f-aa6768a09512")
-		(property "Reference" "RE"
+		(property "Reference" "RE1"
 			(at 148.59 66.0399 0)
 			(effects
 				(font
@@ -3078,7 +3090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 144.272 67.31 90)
 			(effects
 				(font
@@ -3114,7 +3126,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RE")
+					(reference "RE1")
 					(unit 1)
 				)
 			)
@@ -3130,7 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3270cd4c-82ea-49ac-8483-e2b21b4d66a9")
-		(property "Reference" "RA"
+		(property "Reference" "RA1"
 			(at 118.11 66.0399 0)
 			(effects
 				(font
@@ -3148,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 113.792 67.31 90)
 			(effects
 				(font
@@ -3184,7 +3196,7 @@
 		(instances
 			(project ""
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RA")
+					(reference "RA1")
 					(unit 1)
 				)
 			)
@@ -3200,7 +3212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33db9547-0cfc-4277-a335-6078a60ee75d")
-		(property "Reference" "RG"
+		(property "Reference" "RG1"
 			(at 163.83 66.0399 0)
 			(effects
 				(font
@@ -3218,7 +3230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 159.512 67.31 90)
 			(effects
 				(font
@@ -3254,7 +3266,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RG")
+					(reference "RG1")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 101.6 99.06 0)
 			(effects
 				(font
@@ -3487,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a209047-e95a-47bc-898a-35a8837e7ffc")
-		(property "Reference" "RB"
+		(property "Reference" "RB1"
 			(at 125.73 66.0399 0)
 			(effects
 				(font
@@ -3505,7 +3517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 121.412 67.31 90)
 			(effects
 				(font
@@ -3541,7 +3553,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RB")
+					(reference "RB1")
 					(unit 1)
 				)
 			)
@@ -3718,7 +3730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb61464d-991b-4ed9-8bf6-bf06cb501344")
-		(property "Reference" "R_DP"
+		(property "Reference" "R_DP1"
 			(at 172.72 66.0399 0)
 			(effects
 				(font
@@ -3736,7 +3748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 168.402 67.31 90)
 			(effects
 				(font
@@ -3772,7 +3784,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "R_DP")
+					(reference "R_DP1")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc291bd6-2669-43c1-b097-e0f7dc5dcc37")
-		(property "Reference" "RLED"
+		(property "Reference" "RLED1"
 			(at 104.394 89.408 0)
 			(effects
 				(font
@@ -3805,7 +3817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 99.822 91.44 90)
 			(effects
 				(font
@@ -3841,7 +3853,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RLED")
+					(reference "RLED1")
 					(unit 1)
 				)
 			)
@@ -3857,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd1b299-0e83-4b7b-b1d4-939d2896d862")
-		(property "Reference" "RD"
+		(property "Reference" "RD1"
 			(at 140.97 66.0399 0)
 			(effects
 				(font
@@ -3875,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 136.652 67.31 90)
 			(effects
 				(font
@@ -3911,7 +3923,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RD")
+					(reference "RD1")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3143cbd-1899-43df-b71c-06ee927c78af")
-		(property "Reference" "RC"
+		(property "Reference" "RC1"
 			(at 133.35 66.0399 0)
 			(effects
 				(font
@@ -4108,7 +4120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 129.032 67.31 90)
 			(effects
 				(font
@@ -4144,7 +4156,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RC")
+					(reference "RC1")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead203c8-b432-4eb3-97e8-4e7e46eeadf9")
-		(property "Reference" "RF"
+		(property "Reference" "RF1"
 			(at 156.21 66.0399 0)
 			(effects
 				(font
@@ -4178,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 151.892 67.31 90)
 			(effects
 				(font
@@ -4214,7 +4226,7 @@
 		(instances
 			(project "Capteur_temperature"
 				(path "/ce0803b4-491a-4569-8399-67e6462a558a"
-					(reference "RF")
+					(reference "RF1")
 					(unit 1)
 				)
 			)
