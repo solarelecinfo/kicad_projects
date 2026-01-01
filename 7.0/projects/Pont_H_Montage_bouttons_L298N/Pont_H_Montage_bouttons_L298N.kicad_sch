@@ -2703,6 +2703,16 @@
 		)
 		(uuid "d3703eb0-d355-49a6-8599-b62fe7c3e9eb")
 	)
+	(text "Circuit L298N DC Motor driver"
+		(exclude_from_sim no)
+		(at 126.746 74.168 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "d95cf42e-0f37-496e-a388-66ec156f423f")
+	)
 	(junction
 		(at 102.87 135.89)
 		(diameter 0)
